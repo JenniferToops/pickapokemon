@@ -1,0 +1,111 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+body {
+  margin: 0 0;
+  width: 100%;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: radial-gradient(yellow, orange);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  color:rgb(60, 77, 32);
+}
+
+h1 {
+  color:crimson;
+  font-size: 5rem;
+  text-shadow: .5px 1px black;
+}
+
+.inline-imgs {
+  display: inline-block;
+  margin: 0;
+}
+
+input, button {
+  margin-top: -30px;
+  width: 15vw;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+button {
+  background-color:black;
+  color: white;
+}
+
+#name, #type, #ability1, #height, #weight {
+  color: rgb(1, 87, 87);
+}
+
+h2 {
+  font-size: 2rem;
+  color: purple;
+  display: inline;
+}
+
+section {
+  visibility: hidden;
+  font-size: 1.5rem;
+  color: purple;
+}
+
+#img1, #img2 {
+  display: inline-block;
+  width: 15vw;
+    /* margin-left: 10vw;
+  margin-right: 10vw; */
+}
+
+ul {
+  display: inline;
+  list-style-type: none;
+  width: 20vw;
+}
+
+li {
+  display: inline;
+}
+
+li:nth-of-type(odd) {
+  color: darkblue;
+}
+
+li:nth-of-type(even) {
+  color: red;
+}
+
+#pokeball {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  visibility: visible;
+}
+
+
+
+
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
